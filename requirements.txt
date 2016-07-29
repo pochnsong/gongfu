@@ -1,0 +1,8 @@
+Django==1.9.8
+Fabric==1.11.1
+Pillow==3.3.0
+django-uuslug==1.1.8
+pytz==2016.6.1
+channels==0.17.1
+Twisted==16.2.0
+asgi_ipc==1.1.0
