@@ -1,0 +1,101 @@
+{% extends 'cms/base.html' %}
+{% load staticfiles %}
+{% load get_dict %}
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <span class="model_name">{{ model_verbose }}</span>
+            </div>
+            <div class="col-md-8">
+                <form action="{% url 'cms:model-list' %}?{{ para }}" id="list-search" class="form-horizontal">
+                <input type="hidden" name="search_by_group" id="id_search_by_group" value="{% if group_by %}true{% endif %}">
+                {% for name, value in para.items %}
+                    <input name="{{ name }}" value="{{ value }}" type="hidden">
+                {% endfor %}
+                <div class="form-group">
+                    <div class="col-xs-4">
+                        <label class="sr-only" for="id_search_field">查询项</label>
+                        <select name="search_field" id="id_search_field" class="form-control">
+                            {% for name, verbose_name in search_fields %}
+                                <option value="{{ name }}">{{ verbose_name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-xs-4">
+                        <input type="text" name="search_value" id="id_search_value" placeholder="查询" class="form-control">
+                    </div>
+                    <div class="col-xs-4">
+                        <button type="submit" id="list-search-submit" class="btn btn-info">查找</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <div class="col-md-2">
+                <a class="btn btn-primary" href="{% url 'cms:model-create' %}?app={{ para.app }}&model={{ para.model }}" style="width: 100%">新建</a>
+            </div>
+        </div>
+
+        <table class="table table-hover table-striped">
+            <tr>
+                {% for x in list_display %}
+                    <th>{{ list_display_verbose_name|get:x }}</th>
+                {% endfor %}
+                {% if group_by %}
+                    <th>个数</th>
+                {% endif %}
+                <th style="min-width: 130px">操作</th>
+            </tr>
+            {% for x in object_list %}
+                <tr>
+                    {% if list_display %}
+                        {% for key in list_display %}
+                            <td>{{ x|get:key|fmt }}</td>
+                        {% endfor %}
+                    {% else %}
+                        <td>{{ x }}</td>
+                    {% endif %}
+                    {% if group_by %}
+                        <td>{{ x|set_count:para.model }}</td>
+                        <td>
+                            <a class="btn btn-primary" href="{% url 'cms:model-list' %}?app={{ para.app }}&model={{ para.model }}&filter={{ group_by }},{{ x.pk }}">进入</a>
+                        </td>
+                    {% else %}
+                        <td>
+                            <a href="{% url 'cms:model-update' x.pk %}?app={{ para.app }}&model={{ para.model }}" class="btn btn-info">修改</a>
+                            <a href="{% url 'cms:model-delete' x.pk %}?app={{ para.app }}&model={{ para.model }}" class="btn btn-danger">删除</a>
+                        </td>
+                    {% endif %}
+
+                </tr>
+            {% endfor %}
+        </table>
+
+    {% if is_paginated %}
+        <div style="text-align: center">
+            <ul class="pagination pagination-centered">
+                {% if page_obj.has_previous %}
+                    <li><a href="?{{ url_para }}&page=1"><<</a></li>
+                    <li><a href="?{{ url_para }}&page={{ page_obj.previous_page_number }}"><</a></li>
+                {% endif %}
+
+                {% for i in paginator.page_range %}
+                    <li {% if page_obj.number == i %} class="active" {% endif %}><a href="?{{ url_para }}&page={{ i }}">{{ i }}</a>
+                    </li>
+                {% endfor %}
+
+                {% if page_obj.has_next %}
+                    <li><a href="?{{ url_para }}&page={{ page_obj.next_page_number }}">></a></li>
+                    <li><a href="?{{ url_para }}&page={{ page_obj.paginator.num_pages }}">>></a></li>
+                {% endif %}
+            </ul>
+        </div>
+    {% endif %}
+    </div>
+{% endblock %}
+
+{% block js %}
+
+    <script src="{% static 'cms/js/list.js' %}"></script>
+
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends 'cms/base.html' %}
+{% load staticfiles %}
+{% load get_dict %}
+
+{% block js %}
+    <script src="{% static 'cms/js/index.js' %}"></script>
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="cms">
+                    <div class="row">
+                        {% for app, model, name, level in  model_list%}
+                            <div class="col-md-4">
+                                <div class="module">
+                                    <a href="{% url 'cms:model-list' %}?model={{ model }}&app={{ app }}" class="btn-primary">
+                                        {{ name }}
+                                    </a>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <p class="alert alert-info">
+                        上次登录: {{ user.last_login|fmt }}<br>
+                        当前:{{ now|fmt }}
+                    </p>
+                </div>
+                <ul class="list-group" style="margin-top: 10px">
+                    <li class="list-group-item active">操作记录（{{ user }}）</li>
+                    {% for x in history_list %}
+                        {% if x.action == 'delete' %}
+                            <a class="list-group-item">
+                                <div style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%">
+                                    <span class="label label-{{ x.action }}">{{ x.action|zh }}</span>
+                                    <span class="label label-default">{{ x.model_name|model_label:model_list }}</span>
+                                    <strong>{{ x.snap }}</strong>
+                                </div>
+                                {{ x.action_date|fmt }}
+                            </a>
+                        {% else %}
+                        <a href="{% url 'cms:model-update' x.model_pk %}?app={{ x.app }}&model={{ x.model_name }}" class="list-group-item">
+                           <div style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%">
+                               <span class="label label-{{ x.action }}">{{ x.action|zh }}</span>
+                               <span class="label label-default">{{ x.model_name|model_label:model_list }}</span>
+                               <strong>{{ x.snap }}</strong>
+                           </div>
+                            {{ x.action_date|fmt }}
+                        </a>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

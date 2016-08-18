@@ -1,7 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f104e66-1772-4473-a791-766ff6de9aad" name="Default" comment="" />
+    <list default="true" id="5f104e66-1772-4473-a791-766ff6de9aad" name="Default" comment="init">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/langs/tinymce_languages.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-cool.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-cry.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-frown.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-wink.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-yell.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/media/moxieplayer.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/img/anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/img/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/img/object.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/img/trans.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.fabfileignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/GeneralViews.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/loader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/migrations/0002_histroymodel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/migrations/0003_histroymodel_action.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/css/bootstrap-datetimepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/css/cms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/css/create.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/bootstrap-datetimepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/bootstrap-datetimepicker.zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/model-custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/langs/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/langs/zh_CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/advlist/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/anchor/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/autolink/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/autoresize/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/autosave/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/bbcode/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/charmap/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/code/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/colorpicker/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/contextmenu/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/directionality/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/example/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/example/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/example_dependency/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/fullpage/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/fullscreen/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/hr/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/image/_plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/image/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/image64/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/image64/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/imagetools/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/importcss/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/insertdatetime/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/layer/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/legacyoutput/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/link/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/lists/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/media/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/nonbreaking/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/noneditable/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/pagebreak/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/paste/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/preview/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/print/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/save/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/searchreplace/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/spellchecker/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/tabfocus/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/table/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/template/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/textcolor/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/textpattern/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/visualblocks/css/visualblocks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/visualblocks/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/visualchars/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/wordcount/plugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/content.inline.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/content.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/skin.ie7.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/skin.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/themes/modern/theme.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/static/cms/js/tinymce/tinymce.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/templates/cms/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/templates/cms/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/templates/cms/model/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/templates/cms/model/delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/templates/cms/model/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/templates/cms/model/model404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/templates/cms/model/setting-model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/templates/cms/model/setting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/templates/cms/model/update.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/templatetags/get_dict.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cms/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fab/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fab/apache.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fab/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fabfile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/start_server.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supervisord.conf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/channels_test/consumers.py" afterPath="$PROJECT_DIR$/apps/channels_test/consumers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/channels_test/routing.py" afterPath="$PROJECT_DIR$/apps/channels_test/routing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gongfu/settings.py" afterPath="$PROJECT_DIR$/gongfu/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gongfu/urls.py" afterPath="$PROJECT_DIR$/gongfu/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+    </list>
     <ignored path="gongfu.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -24,12 +164,42 @@
     <favorites_list name="gongfu" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="channels.err.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/channels.err.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="channels.out.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/channels.out.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="threading.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python2.7/threading.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="994" column="15" selection-start-line="994" selection-start-column="8" selection-end-line="994" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="routing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/channels_test/routing.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
                 <element signature="e#15#62#0" expanded="true" />
               </folding>
@@ -37,11 +207,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/channels_test/templates/channels_test/index.html">
+      <file leaf-file-name="fabfile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fabfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5">
-              <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="153" column="15" selection-start-line="153" selection-start-column="15" selection-end-line="153" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="supervisord.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supervisord.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.642858">
+              <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start_server.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start_server.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="92" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -50,54 +240,10 @@
       <file leaf-file-name="consumers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/channels_test/consumers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65292096">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state vertical-scroll-proportion="-0.28006873">
+              <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
               <folding>
                 <element signature="e#16#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="websockets.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/generic/websockets.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="channel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/channel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/message.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/channels_test/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,19 +259,29 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/apps/routing.py" />
         <option value="$PROJECT_DIR$/apps/channels_test/views.py" />
         <option value="$PROJECT_DIR$/apps/channels_test/urls.py" />
-        <option value="$PROJECT_DIR$/gongfu/urls.py" />
         <option value="$PROJECT_DIR$/gongfu/asgi.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/gongfu/settings.py" />
         <option value="$PROJECT_DIR$/apps/channels_test/templates/channels_test/index.html" />
         <option value="$PROJECT_DIR$/apps/channels_test/routing.py" />
+        <option value="$PROJECT_DIR$/cms/__init__.py" />
+        <option value="$PROJECT_DIR$/gongfu/urls.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/gongfu/settings.py" />
+        <option value="$PROJECT_DIR$/start_server.sh" />
+        <option value="$PROJECT_DIR$/fabfile.py" />
+        <option value="$PROJECT_DIR$/log/supervisord.log" />
+        <option value="$PROJECT_DIR$/log/daphne.err.log" />
+        <option value="$PROJECT_DIR$/log/channels.err.log" />
         <option value="$PROJECT_DIR$/apps/channels_test/consumers.py" />
+        <option value="$PROJECT_DIR$/supervisord.conf" />
       </list>
     </option>
   </component>
@@ -165,6 +321,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,32 +351,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gongfu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gongfu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gongfu" />
+              <option name="myItemId" value="log" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,13 +368,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/db" />
       <recent name="$PROJECT_DIR$/apps/channels_test" />
       <recent name="$PROJECT_DIR$/apps" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/apps/channels_test" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.gongfu">
@@ -333,6 +472,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -492,26 +636,35 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="26" width="1920" height="1028" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@gongfu" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2766191" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@gongfu" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -528,30 +681,26 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/channels_test/views.py">
+    <entry file="file://$PROJECT_DIR$/gongfu/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22852233">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#639#680#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/socket.io-1.4.5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.761733">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/channels_test/tests.py">
+    <entry file="file://$PROJECT_DIR$/gongfu/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -559,67 +708,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/django/utils/six.py">
+    <entry file="file://$PROJECT_DIR$/apps/channels_test/routing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/channels_test/templates/channels_test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/routing.py">
+    <entry file="file://$PROJECT_DIR$/apps/channels_test/consumers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.121993">
-          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/generic/websockets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/channel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongfu/urls.py">
+    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/message.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="e#639#680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongfu/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongfu/asgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#24#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gongfu/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="143" column="31" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
-          <folding>
-            <element signature="e#307#316#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -628,8 +766,29 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/socket.io-1.4.5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.761733">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/django/utils/six.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/routing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.121993">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -647,9 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -665,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4364262">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,15 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python2.7/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.058419243">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.16323024">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,7 +850,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="26" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="26" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -719,10 +863,137 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/channels_test/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/channels_test/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/static/cms/js/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongfu/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongfu/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#639#680#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/channels_test/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/channels_test/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1305842">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/channels_test/templates/channels_test/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        <state vertical-scroll-proportion="-6.892857">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongfu/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.fabfileignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongfu/asgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gongfu/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="994" column="15" selection-start-line="994" selection-start-column="8" selection-end-line="994" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -730,25 +1001,65 @@
     <entry file="file://$PROJECT_DIR$/apps/channels_test/routing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
             <element signature="e#15#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/message.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="37" />
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start_server.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="92" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/channels.err.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/channels.out.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supervisord.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.642858">
+          <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fabfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="153" column="15" selection-start-line="153" selection-start-column="15" selection-end-line="153" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/channels_test/consumers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65292096">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state vertical-scroll-proportion="-0.28006873">
+          <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
           <folding>
             <element signature="e#16#52#0" expanded="true" />
           </folding>

@@ -1,0 +1,31 @@
+{% extends 'cms/base.html' %}
+
+{% block body %}
+    <div class="container">
+    <h3>{{ model.verbose_name }}</h3>
+    {% if success %}
+        <p class="alert alert-success">保存成功</p>
+    {% endif %}
+    </div>
+    <form method="post" class="container">
+        {% csrf_token %}
+        <input type="hidden" name="app" value="{{ model.app }}">
+        <input type="hidden" name="name" value="{{ model.name }}">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h4><strong>设置后台显示列表</strong></h4>
+            </div>
+            {% for field in model.fields%}
+                <div class="col-md-3">
+                    <div class="checkbox">
+                        <label><input name="list_display" value="{{ field.name }}" type="checkbox" {% if field.list_display %}checked{% endif %}>{{ field.verbose_name}}</label>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="row">
+            <input type="submit" value="保存" class="btn btn-primary">
+        </div>
+    </form>
+{% endblock %}

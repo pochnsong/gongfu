@@ -1,0 +1,23 @@
+{% extends 'cms/base.html' %}
+{% load get_dict %}
+
+{% block body %}
+    <div class="container">
+        {% if object %}
+       <p class="alert alert-warning">
+           位于<strong>{{ model_verbose }}</strong>中的数据
+           <strong>{{ object.snap }}</strong>
+           已于<strong>{{ object.action_date|fmt }}</strong>
+           被<strong>{{ object.user }}</strong>
+           删除。
+       </p>
+        {% else %}
+            <p class="alert alert-warning">
+                没有查到符合条件的数据，该数据是否可能已被删除，或尚未建立。
+            </p>
+        {% endif %}
+        <div style="text-align: center">
+            <a class="btn btn-warning" href="{% url 'cms:index' %}">返回首页</a>
+        </div>
+    </div>
+{% endblock %}

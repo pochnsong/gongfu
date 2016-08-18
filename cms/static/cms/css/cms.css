@@ -1,0 +1,72 @@
+body{
+    font-size: 14px;
+}
+@media (min-width: 1280px) {
+    body{
+        font-size: 16px;
+    }
+}
+
+.navbar-inverse{
+    background-image: linear-gradient(to bottom,#337ab7 0,#2b669a 100%)
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a{
+    color: rgba(255,255,255, 0.8);
+}
+
+.cms .module{
+    background-color: rgba(255,255,255,.8);
+    display: table;
+    border: 2px solid #f8f8f8;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.cms .module a{
+    display: table-cell;
+    #background-color: #00a2e8;
+    color: #fff;
+    text-decoration: none;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.work-panel{
+    background-color: #f8f8f8;
+    padding: 1rem;
+}
+.btn-cms{
+    background-color: #00a2e8;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.btn-cms:hover{
+    opacity: 0.8;
+    color: #fff;
+}
+
+.model_name{
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.label-create{
+    background-color: #449d44;
+    background-image: linear-gradient(to bottom,#5cb85c 0,#419641 100%);
+}
+
+.label-update{
+    background-color: #286090;
+    background-image: linear-gradient(to bottom,#337ab7 0,#2b669a 100%)
+}
+
+.label-delete{
+    background-color: #c9302c;
+    background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%)
+}

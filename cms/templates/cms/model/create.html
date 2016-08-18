@@ -1,0 +1,42 @@
+{% extends 'cms/base.html' %}
+{% load staticfiles %}
+{% load get_dict %}
+{% block css %}
+    <link href="{% static 'cms/css/bootstrap-datetimepicker.min.css' %}" rel="stylesheet">
+    <link href="{% static 'cms/css/create.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+    <div class="work-panel">
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {% for field in form %}
+            <div class="form-group">
+                <label for="{{ field.id_for_label }}">{{ field.label }}:</label>
+                {% if field|is_date %}
+                    <input class="form-control form_datetime" id="{{ field.id }}" name="{{ field.name }}" type="datetime" value="{{ field.value|date_value }}">
+                {% elif field|is_datetime %}
+                    <input class="form-control form_datetime" id="{{ field.id }}" name="{{ field.name }}" type="datetime" value="{{ field.value|datetime_now }}">
+                {% else %}
+                    {{ field }}
+                {% endif %}
+                {{ field.errors }}
+            </div>
+        {% endfor %}
+        <input class="btn btn-default" type="submit" value="保存">
+    </form>
+    </div>
+    </div>
+{% endblock %}
+
+{% block js %}
+
+    <script src="{% static 'cms/js/tinymce/tinymce.min.js' %}"></script>
+    <script src="{% static 'cms/js/bootstrap-datetimepicker.min.js' %}"></script>
+    <script src="{% static 'cms/js/bootstrap-datetimepicker.zh-CN.js' %}" charset="UTF-8"></script>
+    <script src="{% static 'cms/js/model.js' %}"></script>
+    <script src="{% static 'cms/js/model-custom.js' %}"></script>
+
+
+{% endblock %}
