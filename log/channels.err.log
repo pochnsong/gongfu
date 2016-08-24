@@ -1,0 +1,6 @@
+2016-08-18 03:10:34,607 - INFO - runworker - Running worker against channel layer default (asgi_ipc.IPCChannelLayer)
+2016-08-18 03:10:34,608 - INFO - worker - Listening on channels http.request, websocket.connect, websocket.disconnect, websocket.receive
+2016-08-18 03:24:35,376 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2016-08-18 05:16:30,538 - INFO - runworker - Running worker against channel layer default (asgi_ipc.IPCChannelLayer)
+2016-08-18 05:16:30,538 - INFO - worker - Listening on channels http.request, websocket.connect, websocket.disconnect, websocket.receive
+2016-08-18 05:16:48,353 - INFO - worker - Shutdown signal received while busy, waiting for loop termination

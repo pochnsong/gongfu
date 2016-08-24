@@ -40,8 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'channels_test',
     'channels',
+    'channels_test',
+    'cobweb',
     'cms',
 ]
 
@@ -140,7 +141,7 @@ CHANNEL_LAYERS = {
     "default": {
         #"BACKEND": "asgiref.inmemory.ChannelLayer",
         "BACKEND": "asgi_ipc.IPCChannelLayer",
-        "ROUTING": "channels_test.routing.channel_routing",
+        "ROUTING": "cobweb.routing.channel_routing",
         "CONFIG": {
             "prefix": "gongfu",
         },

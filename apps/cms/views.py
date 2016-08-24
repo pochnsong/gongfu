@@ -177,7 +177,6 @@ class ModelCreateView(edit.CreateView, GeneralModelView):
     def get_context_data(self, **kwargs):
         context = super(ModelCreateView, self).get_context_data(**kwargs)
         # 查找时间field项
-        #TODO
         context['fields_datetime'] = []
         context['fields_date'] = []
         for field in self.model._meta.fields:

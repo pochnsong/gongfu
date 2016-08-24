@@ -1,0 +1,649 @@
+connect websocket.send!JkDTJvpNWtFo
+start_background None
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-1, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+[] exit
+start websocket.send!JkDTJvpNWtFo [u'websocket.send!JkDTJvpNWtFo']
+group: send test.me2 {u'text': u'hello world'}
+connect websocket.send!IEQQuOIrEauR
+start_background <Thread(Thread-1, stopped daemon 140385383741184)>
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-2, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04ee4410>
+1start websocket.send!IEQQuOIrEauR [u'websocket.send!JkDTJvpNWtFo', u'websocket.send!IEQQuOIrEauR']
+ [u'websocket.send!JkDTJvpNWtFo', u'websocket.send!IEQQuOIrEauR']
+group: send test.me2 {'count': 1}
+group: send test.me2 {u'text': u'hello world'}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04ee4410>
+2 [u'websocket.send!JkDTJvpNWtFo', u'websocket.send!IEQQuOIrEauR']
+group: send test.me2 {'count': 2}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04ee4410>
+3 [u'websocket.send!JkDTJvpNWtFo', u'websocket.send!IEQQuOIrEauR']
+group: send test.me2 {'count': 3}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04ee4410>
+4 [u'websocket.send!JkDTJvpNWtFo', u'websocket.send!IEQQuOIrEauR']
+group: send test.me2 {'count': 4}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04ee4410>
+5 [u'websocket.send!JkDTJvpNWtFo', u'websocket.send!IEQQuOIrEauR']
+group: send test.me2 {'count': 5}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04ee4410>
+6 [u'websocket.send!JkDTJvpNWtFo', u'websocket.send!IEQQuOIrEauR']
+group: send test.me2 {'count': 6}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04ee4410>
+7 [u'websocket.send!JkDTJvpNWtFo', u'websocket.send!IEQQuOIrEauR']
+group: send test.me2 {'count': 7}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04ee4410>
+8 [u'websocket.send!JkDTJvpNWtFo', u'websocket.send!IEQQuOIrEauR']
+group: send test.me2 {'count': 8}
+stop websocket.send!JkDTJvpNWtFo [u'websocket.send!JkDTJvpNWtFo', u'websocket.send!IEQQuOIrEauR']
+after stop websocket.send!JkDTJvpNWtFo [u'websocket.send!IEQQuOIrEauR']
+stop websocket.send!IEQQuOIrEauR [u'websocket.send!IEQQuOIrEauR']
+after stop websocket.send!IEQQuOIrEauR []
+<channels_test.consumers.Chat3Consumer object at 0x7fae04ee4410>
+[] exit
+group: send test.me2 {u'text': u'hello world'}
+connect websocket.send!ZPEXwnWYXMPe
+start_background <Thread(Thread-2, stopped daemon 140385383741184)>
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-3, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04ee4610>
+[] exit
+start websocket.send!ZPEXwnWYXMPe [u'websocket.send!ZPEXwnWYXMPe']
+stop websocket.send!ZPEXwnWYXMPe [u'websocket.send!ZPEXwnWYXMPe']
+after stop websocket.send!ZPEXwnWYXMPe []
+connect websocket.send!elCcUpctYDwm
+start_background <Thread(Thread-3, stopped daemon 140385383741184)>
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-4, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04ee4550>
+[] exit
+start websocket.send!elCcUpctYDwm [u'websocket.send!elCcUpctYDwm']
+group: send test.me2 {u'text': u'hello world'}
+connect websocket.send!IcKhPcKwIrJq
+start_background <Thread(Thread-4, stopped daemon 140385383741184)>
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-5, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+1 [u'websocket.send!elCcUpctYDwm']
+group: sendstart websocket.send!IcKhPcKwIrJq [u'websocket.send!elCcUpctYDwm', u'websocket.send!IcKhPcKwIrJq']
+ test.me2 {'count': 1}
+group: send test.me2 {u'text': u'hello world'}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+2 [u'websocket.send!elCcUpctYDwm', u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 2}
+stop websocket.send!elCcUpctYDwm [u'websocket.send!elCcUpctYDwm', u'websocket.send!IcKhPcKwIrJq']
+after stop websocket.send!elCcUpctYDwm [u'websocket.send!IcKhPcKwIrJq']
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+3 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 3}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+4 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 4}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+5 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 5}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+6 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 6}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+7 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 7}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+8 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 8}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+9 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 9}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+10 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 10}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+11 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 11}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+12 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 12}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+13 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 13}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+14 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 14}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+15 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 15}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+16 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 16}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+17 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 17}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+18 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 18}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+19 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 19}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+20 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 20}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+21 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 21}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+22 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 22}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+23 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 23}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+24 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 24}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+25 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 25}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+26 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 26}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+27 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 27}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+28 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 28}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+29 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 29}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+30 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 30}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+31 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 31}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+32 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 32}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+33 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 33}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+34 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 34}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+35 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 35}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+36 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 36}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+37 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 37}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+38 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 38}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+39 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 39}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+40 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 40}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+41 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 41}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+42 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 42}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+43 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 43}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+44 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 44}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+45 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 45}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+46 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 46}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+47 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 47}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+48 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 48}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+49 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 49}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+50 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 50}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+51 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 51}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+52 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 52}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+53 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 53}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+54 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 54}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+55 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 55}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+56 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 56}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+57 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 57}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+58 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 58}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+59 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 59}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+60 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 60}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+61 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 61}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+62 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 62}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+63 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 63}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+64 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 64}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+65 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 65}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+66 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 66}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+67 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 67}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+68 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 68}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+69 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 69}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+70 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 70}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+71 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 71}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+72 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 72}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+73 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 73}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+74 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 74}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+75 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 75}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+76 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 76}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+77 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 77}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+78 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 78}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+79 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 79}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+80 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 80}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+81 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 81}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+82 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 82}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+83 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 83}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+84 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 84}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+85 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 85}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+86 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 86}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+87 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 87}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+88 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 88}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+89 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 89}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+90 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 90}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+91 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 91}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+92 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 92}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+93 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 93}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+94 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 94}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+95 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 95}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+96 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 96}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+97 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 97}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+98 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 98}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+99 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 99}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+100 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 100}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+101 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 101}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+102 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 102}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+103 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 103}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+104 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 104}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+105 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 105}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+106 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 106}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+107 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 107}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+108 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 108}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+109 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 109}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+110 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 110}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+111 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 111}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+112 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 112}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+113 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 113}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+114 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 114}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+115 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 115}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+116 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 116}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+117 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 117}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+118 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 118}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+119 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 119}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+120 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 120}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+121 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 121}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+122 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 122}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+123 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 123}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+124 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 124}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+125 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 125}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+126 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 126}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+127 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 127}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+128 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 128}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+129 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 129}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+130 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 130}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+131 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 131}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+132 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 132}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+133 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 133}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+134 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 134}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+135 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 135}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+136 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 136}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+137 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 137}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+138 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 138}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+139 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 139}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+140 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 140}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+141 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 141}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+142 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 142}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+143 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 143}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+144 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 144}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+145 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 145}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+146 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 146}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+147 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 147}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+148 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 148}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+149 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 149}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+150 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 150}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+151 [u'websocket.send!IcKhPcKwIrJq']
+group: send test.me2 {'count': 151}
+stop websocket.send!IcKhPcKwIrJq [u'websocket.send!IcKhPcKwIrJq']
+after stop websocket.send!IcKhPcKwIrJq []
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b10>
+[] exit
+connect websocket.send!UQByxMBOTdnN
+start_background <Thread(Thread-5, stopped daemon 140385383741184)>
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-6, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24f90>
+[] start websocket.send!UQByxMBOTdnN [u'websocket.send!UQByxMBOTdnN']
+exit
+group: send test.me2 {u'text': u'hello world'}
+stop websocket.send!UQByxMBOTdnN [u'websocket.send!UQByxMBOTdnN']
+after stop websocket.send!UQByxMBOTdnN []
+group: send test.me2 {u'text': u'hello world'}
+connect websocket.send!yNONDkAqrNoF
+start_background <Thread(Thread-6, stopped daemon 140385383741184)>
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-7, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f10a90>
+[] exit
+start websocket.send!yNONDkAqrNoF [u'websocket.send!yNONDkAqrNoF']
+stop websocket.send!yNONDkAqrNoF [u'websocket.send!yNONDkAqrNoF']
+after stop websocket.send!yNONDkAqrNoF []
+group: send test.me2 {u'text': u'hello world'}
+connect websocket.send!DhcVbMyQDwfx
+start_background <Thread(Thread-7, stopped daemon 140385383741184)>
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-8, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f10e90>
+[] exit
+start websocket.send!DhcVbMyQDwfx [u'websocket.send!DhcVbMyQDwfx']
+stop websocket.send!DhcVbMyQDwfx [u'websocket.send!DhcVbMyQDwfx']
+after stop websocket.send!DhcVbMyQDwfx []
+connect websocket.send!kEHXkGUSmJII
+start_background <Thread(Thread-8, stopped daemon 140385383741184)>
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-9, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f10790>
+[start websocket.send!kEHXkGUSmJII [u'websocket.send!kEHXkGUSmJII'u'websocket.send!kEHXkGUSmJII'] exit
+]
+group: send test.me2 {u'text': u'hello world'}
+stop websocket.send!kEHXkGUSmJII [u'websocket.send!kEHXkGUSmJII']
+after stop websocket.send!kEHXkGUSmJII []
+connect websocket.send!mcGcMgrqXmUN
+start_background <Thread(Thread-9, stopped daemon 140385383741184)>
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-10, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f24b90>
+[] startexit
+ websocket.send!mcGcMgrqXmUN [u'websocket.send!mcGcMgrqXmUN']
+group: send test.me2 {u'text': u'hello world'}
+stop websocket.send!mcGcMgrqXmUN [u'websocket.send!mcGcMgrqXmUN']
+after stop websocket.send!mcGcMgrqXmUN []
+connect websocket.send!eEbDIHAQCbas
+start_background <Thread(Thread-10, stopped daemon 140385383741184)>
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-11, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f10950>
+[] start websocket.send!eEbDIHAQCbas [u'websocket.send!eEbDIHAQCbas']
+exit
+group: send test.me2 {u'text': u'hello world'}
+stop websocket.send!eEbDIHAQCbas [u'websocket.send!eEbDIHAQCbas']
+after stop websocket.send!eEbDIHAQCbas []
+connect websocket.send!SfPRcpOucJuV
+start_background <Thread(Thread-11, stopped daemon 140385383741184)>
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-12, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f10190>
+[] exit
+start websocket.send!SfPRcpOucJuV [u'websocket.send!SfPRcpOucJuV']
+group: send test.me2 {u'text': u'hello world'}
+stop websocket.send!SfPRcpOucJuV [u'websocket.send!SfPRcpOucJuV']
+after stop websocket.send!SfPRcpOucJuV []
+group: send test.me2 {u'text': u'hello world'}
+connect websocket.send!pmfReNjdneWK
+start_background <Thread(Thread-12, stopped daemon 140385383741184)>
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-13, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f55110>
+ start websocket.send!pmfReNjdneWK [u'websocket.send!pmfReNjdneWK']
+1 [u'websocket.send!pmfReNjdneWK']
+group: send test.me2 {'count': 1}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f55110>
+2 [u'websocket.send!pmfReNjdneWK']
+group: send test.me2 {'count': 2}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f55110>
+3 [u'websocket.send!pmfReNjdneWK']
+group: send test.me2 {'count': 3}
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f55110>
+4 [u'websocket.send!pmfReNjdneWK']
+group: send test.me2 {'count': 4}
+stop websocket.send!pmfReNjdneWK [u'websocket.send!pmfReNjdneWK']
+after stop websocket.send!pmfReNjdneWK []
+<channels_test.consumers.Chat3Consumer object at 0x7fae04f55110>
+[] exit
+connect websocket.send!FvLWCITvoBlI
+start_background <Thread(Thread-13, stopped daemon 140385383741184)>
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-14, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7fae04ee4650>
+[] exit
+start websocket.send!FvLWCITvoBlI [u'websocket.send!FvLWCITvoBlI']
+group: send test.me2 {u'text': u'hello world'}
+stop websocket.send!FvLWCITvoBlI [u'websocket.send!FvLWCITvoBlI']
+after stop websocket.send!FvLWCITvoBlI []
+connect websocket.send!YwGQMLthaKoq
+start_background None
+create single threads <class 'channels_test.consumers.Chat3Consumer'> <Thread(Thread-1, initial daemon)>
+background
+<channels_test.consumers.Chat3Consumer object at 0x7f74794fdf10>
+1start websocket.send!YwGQMLthaKoq [u'websocket.send!YwGQMLthaKoq']
+ [u'websocket.send!YwGQMLthaKoq']
+group: send test.me2 {'count': 1}
+group: send test.me2 {u'text': u'hello world'}
+<channels_test.consumers.Chat3Consumer object at 0x7f74794fdf10>
+2 [u'websocket.send!YwGQMLthaKoq']
+group: send test.me2 {'count': 2}
+<channels_test.consumers.Chat3Consumer object at 0x7f74794fdf10>
+3 [u'websocket.send!YwGQMLthaKoq']
+group: send test.me2 {'count': 3}
+<channels_test.consumers.Chat3Consumer object at 0x7f74794fdf10>
+4 [u'websocket.send!YwGQMLthaKoq']
+group: send test.me2 {'count': 4}
+stop websocket.send!YwGQMLthaKoq [u'websocket.send!YwGQMLthaKoq']
+after stop websocket.send!YwGQMLthaKoq []

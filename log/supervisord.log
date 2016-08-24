@@ -1,0 +1,28 @@
+2016-08-18 11:10:29,483 CRIT Supervisor running as root (no user in config file)
+2016-08-18 11:10:33,265 INFO RPC interface 'supervisor' initialized
+2016-08-18 11:10:33,265 INFO RPC interface 'supervisor' initialized
+2016-08-18 11:10:33,265 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-08-18 11:10:33,266 INFO daemonizing the supervisord process
+2016-08-18 11:10:33,266 INFO set current directory: '/home/song/code/gongfu'
+2016-08-18 11:10:33,266 INFO supervisord started with pid 13886
+2016-08-18 11:10:34,269 INFO spawned: 'channels_worker' with pid 13887
+2016-08-18 11:10:34,271 INFO spawned: 'daphne' with pid 13888
+2016-08-18 11:10:35,609 INFO success: channels_worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-08-18 11:10:35,609 INFO success: daphne entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-08-18 11:24:35,347 INFO waiting for daphne, channels_worker to die
+2016-08-18 11:24:35,376 INFO stopped: daphne (exit status 0)
+2016-08-18 11:24:35,405 INFO stopped: channels_worker (exit status 0)
+2016-08-18 13:16:25,687 CRIT Supervisor running as root (no user in config file)
+2016-08-18 13:16:29,232 INFO RPC interface 'supervisor' initialized
+2016-08-18 13:16:29,233 INFO RPC interface 'supervisor' initialized
+2016-08-18 13:16:29,233 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-08-18 13:16:29,233 INFO daemonizing the supervisord process
+2016-08-18 13:16:29,233 INFO set current directory: '/home/song/code/gongfu'
+2016-08-18 13:16:29,233 INFO supervisord started with pid 15447
+2016-08-18 13:16:30,236 INFO spawned: 'channels_worker' with pid 15448
+2016-08-18 13:16:30,236 INFO spawned: 'daphne' with pid 15449
+2016-08-18 13:16:31,539 INFO success: channels_worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-08-18 13:16:31,539 INFO success: daphne entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-08-18 13:16:48,324 INFO waiting for daphne, channels_worker to die
+2016-08-18 13:16:48,353 INFO stopped: daphne (exit status 0)
+2016-08-18 13:16:48,383 INFO stopped: channels_worker (exit status 0)
