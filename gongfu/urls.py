@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-
+from gongfucms import sites
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^', include("cobweb.urls", namespace="test")),
-    url(r'^cms/', include("cms.urls", namespace="cms")),
+    #url(r'^', include("cobweb.urls", namespace="test")),
+    # url(r'^cms/', include("cms.urls", namespace="cms")),
+    url(r'^', sites.site.urls),
 ]

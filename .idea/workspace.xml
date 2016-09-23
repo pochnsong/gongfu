@@ -2,151 +2,152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f104e66-1772-4473-a791-766ff6de9aad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/channels_tool/consumer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cms/templatetags/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cobweb/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cobweb/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cobweb/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cobweb/consumers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cobweb/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cobweb/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cobweb/routing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cobweb/templates/cobweb/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cobweb/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cobweb/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/cobweb/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/channels.err.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/channels.out.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/daphne.err.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/daphne.out.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/supervisord.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/GeneralViews.py" afterPath="$PROJECT_DIR$/apps/cms/GeneralViews.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/__init__.py" afterPath="$PROJECT_DIR$/apps/cms/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/admin.py" afterPath="$PROJECT_DIR$/apps/cms/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/forms.py" afterPath="$PROJECT_DIR$/apps/cms/forms.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/loader.py" afterPath="$PROJECT_DIR$/apps/cms/loader.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/apps/cms/migrations/0001_initial.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/migrations/0002_histroymodel.py" afterPath="$PROJECT_DIR$/apps/cms/migrations/0002_histroymodel.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/migrations/0003_histroymodel_action.py" afterPath="$PROJECT_DIR$/apps/cms/migrations/0003_histroymodel_action.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/migrations/__init__.py" afterPath="$PROJECT_DIR$/apps/channels_tool/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/models.py" afterPath="$PROJECT_DIR$/apps/cms/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/css/bootstrap-datetimepicker.min.css" afterPath="$PROJECT_DIR$/apps/cms/static/cms/css/bootstrap-datetimepicker.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/apps/cms/static/cms/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/apps/cms/static/cms/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/css/cms.css" afterPath="$PROJECT_DIR$/apps/cms/static/cms/css/cms.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/css/create.css" afterPath="$PROJECT_DIR$/apps/cms/static/cms/css/create.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/angular.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/angular.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/bootstrap-datetimepicker.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/bootstrap-datetimepicker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/bootstrap-datetimepicker.zh-CN.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/bootstrap-datetimepicker.zh-CN.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/index.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/jquery-1.11.3.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/jquery-1.11.3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/list.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/list.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/model-custom.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/model-custom.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/model.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/model.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/langs/readme.md" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/langs/readme.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/langs/tinymce_languages.zip" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/langs/tinymce_languages.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/langs/zh_CN.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/langs/zh_CN.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/license.txt" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/license.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/advlist/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/advlist/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/anchor/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/anchor/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/autolink/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/autolink/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/autoresize/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/autoresize/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/autosave/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/autosave/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/bbcode/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/bbcode/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/charmap/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/charmap/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/code/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/code/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/colorpicker/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/colorpicker/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/contextmenu/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/contextmenu/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/directionality/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/directionality/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-cool.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-cry.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-frown.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-wink.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-yell.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/emoticons/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/example/dialog.html" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/example/dialog.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/example/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/example/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/example_dependency/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/example_dependency/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/fullpage/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/fullpage/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/fullscreen/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/fullscreen/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/hr/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/hr/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/image/_plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/image/_plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/image/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/image/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/image64/plugin.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/image64/plugin.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/image64/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/image64/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/imagetools/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/imagetools/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/importcss/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/importcss/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/insertdatetime/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/layer/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/layer/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/legacyoutput/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/link/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/link/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/lists/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/lists/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/media/moxieplayer.swf" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/media/moxieplayer.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/media/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/media/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/nonbreaking/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/noneditable/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/noneditable/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/pagebreak/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/pagebreak/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/paste/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/paste/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/preview/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/preview/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/print/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/print/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/save/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/save/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/searchreplace/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/searchreplace/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/spellchecker/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/spellchecker/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/tabfocus/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/tabfocus/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/table/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/table/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/template/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/template/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/textcolor/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/textcolor/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/textpattern/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/textpattern/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/visualblocks/css/visualblocks.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/visualblocks/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/visualblocks/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/visualchars/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/visualchars/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/plugins/wordcount/plugin.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/wordcount/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/content.inline.min.css" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/content.inline.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/content.min.css" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/content.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/img/anchor.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/img/anchor.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/img/loader.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/img/loader.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/img/object.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/img/object.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/img/trans.gif" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/img/trans.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/skin.ie7.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/skin.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/themes/modern/theme.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/themes/modern/theme.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/static/cms/js/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/tinymce.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/templates/cms/base.html" afterPath="$PROJECT_DIR$/apps/cms/templates/cms/base.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/templates/cms/index.html" afterPath="$PROJECT_DIR$/apps/cms/templates/cms/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/templates/cms/model/create.html" afterPath="$PROJECT_DIR$/apps/cms/templates/cms/model/create.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/templates/cms/model/delete.html" afterPath="$PROJECT_DIR$/apps/cms/templates/cms/model/delete.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/templates/cms/model/list.html" afterPath="$PROJECT_DIR$/apps/cms/templates/cms/model/list.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/templates/cms/model/model404.html" afterPath="$PROJECT_DIR$/apps/cms/templates/cms/model/model404.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/templates/cms/model/setting-model.html" afterPath="$PROJECT_DIR$/apps/cms/templates/cms/model/setting-model.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/templates/cms/model/setting.html" afterPath="$PROJECT_DIR$/apps/cms/templates/cms/model/setting.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/templates/cms/model/update.html" afterPath="$PROJECT_DIR$/apps/cms/templates/cms/model/update.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/templatetags/__init__.py" afterPath="$PROJECT_DIR$/apps/cms/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/templatetags/get_dict.py" afterPath="$PROJECT_DIR$/apps/cms/templatetags/get_dict.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/tests.py" afterPath="$PROJECT_DIR$/apps/cms/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/urls.py" afterPath="$PROJECT_DIR$/apps/cms/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cms/views.py" afterPath="$PROJECT_DIR$/apps/cms/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/accounts.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/auth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/sites.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/css/signin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/change_password.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/history.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/signin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/gongfucms/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/pcman/templates/pcman/reset-pc-password.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/pcman/urls.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/cms/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/cms/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/cms/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/cms/migrations/0002_histroymodel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/cms/migrations/0003_histroymodel_action.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/cms/urls.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/GeneralViews.py" afterPath="$PROJECT_DIR$/apps/gongfucms/GeneralViews.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/admin.py" afterPath="$PROJECT_DIR$/apps/gongfucms/admin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/loader.py" afterPath="$PROJECT_DIR$/apps/gongfucms/loader.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/migrations/__init__.py" afterPath="$PROJECT_DIR$/apps/gongfucms/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/models.py" afterPath="$PROJECT_DIR$/apps/gongfucms/models.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/css/bootstrap-datetimepicker.min.css" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/css/bootstrap-datetimepicker.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/css/cms.css" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/css/cms.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/css/create.css" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/css/create.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/angular.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/angular.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/bootstrap-datetimepicker.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/bootstrap-datetimepicker.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/bootstrap-datetimepicker.zh-CN.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/bootstrap-datetimepicker.zh-CN.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/index.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/jquery-1.11.3.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/jquery-1.11.3.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/list.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/list.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/model-custom.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/model-custom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/model.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/model.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/langs/readme.md" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/langs/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/langs/tinymce_languages.zip" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/langs/tinymce_languages.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/langs/zh_CN.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/langs/zh_CN.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/license.txt" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/license.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/advlist/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/advlist/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/anchor/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/anchor/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/autolink/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/autolink/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/autoresize/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/autoresize/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/autosave/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/autosave/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/bbcode/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/bbcode/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/charmap/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/charmap/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/code/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/code/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/colorpicker/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/colorpicker/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/contextmenu/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/contextmenu/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/directionality/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/directionality/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-cool.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-cry.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-frown.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-smile.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-wink.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/img/smiley-yell.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/emoticons/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/emoticons/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/example/dialog.html" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/example/dialog.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/example/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/example/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/example_dependency/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/example_dependency/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/fullpage/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/fullpage/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/fullscreen/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/fullscreen/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/hr/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/hr/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/image/_plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/image/_plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/image/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/image/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/image64/plugin.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/image64/plugin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/image64/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/image64/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/imagetools/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/imagetools/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/importcss/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/importcss/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/insertdatetime/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/layer/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/layer/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/legacyoutput/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/link/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/link/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/lists/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/lists/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/media/moxieplayer.swf" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/media/moxieplayer.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/media/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/media/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/nonbreaking/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/noneditable/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/noneditable/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/pagebreak/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/pagebreak/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/paste/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/paste/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/preview/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/preview/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/print/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/print/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/save/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/save/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/searchreplace/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/searchreplace/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/spellchecker/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/spellchecker/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/tabfocus/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/tabfocus/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/table/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/table/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/template/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/template/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/textcolor/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/textcolor/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/textpattern/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/textpattern/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/visualblocks/css/visualblocks.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/visualblocks/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/visualblocks/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/visualchars/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/visualchars/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/plugins/wordcount/plugin.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/plugins/wordcount/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/content.inline.min.css" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/content.inline.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/content.min.css" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/content.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/fonts/tinymce.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/fonts/tinymce.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/fonts/tinymce.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/fonts/tinymce.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/img/anchor.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/img/anchor.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/img/loader.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/img/loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/img/object.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/img/object.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/img/trans.gif" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/img/trans.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/skin.ie7.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/skins/lightgray/skin.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/themes/modern/theme.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/themes/modern/theme.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/static/cms/js/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/tinymce/tinymce.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/templates/cms/base.html" afterPath="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/base.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/templates/cms/index.html" afterPath="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/templates/cms/model/create.html" afterPath="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/create.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/templates/cms/model/delete.html" afterPath="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/delete.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/templates/cms/model/list.html" afterPath="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/list.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/templates/cms/model/model404.html" afterPath="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/model404.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/templates/cms/model/setting-model.html" afterPath="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/setting-model.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/templates/cms/model/setting.html" afterPath="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/setting.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/templates/cms/model/update.html" afterPath="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/update.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/templatetags/__init__.py" afterPath="$PROJECT_DIR$/apps/gongfucms/migrations/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/templatetags/get_dict.py" afterPath="$PROJECT_DIR$/apps/gongfucms/templatetags/get_dict.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/tests.py" afterPath="$PROJECT_DIR$/apps/gongfucms/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/cms/views.py" afterPath="$PROJECT_DIR$/apps/gongfucms/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/db.sqlite3" afterPath="$PROJECT_DIR$/db/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gongfu.iml" afterPath="$PROJECT_DIR$/.idea/gongfu.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gongfu/settings.py" afterPath="$PROJECT_DIR$/gongfu/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gongfu/urls.py" afterPath="$PROJECT_DIR$/gongfu/urls.py" />
@@ -161,7 +162,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -174,82 +174,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/channels_test/views.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/pcman/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cobweb/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="consumers.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/cobweb/consumers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58762884">
-              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-              <folding>
-                <element signature="e#16#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="consumer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/channels_tool/consumer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-              <folding>
-                <element signature="e#16#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="websockets.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/generic/websockets.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="152">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gongfu/settings.py">
+      <file leaf-file-name="history.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/history.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="143" column="26" selection-start-line="143" selection-start-column="26" selection-end-line="143" selection-end-column="26" />
+            <state relative-caret-position="646">
+              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cobweb/routing.py">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-              <folding>
-                <element signature="e#15#62#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -257,28 +207,72 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gongfu/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="418">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+              <folding>
+                <element signature="e#639#680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accounts.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/gongfucms/accounts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+              <folding>
+                <element signature="e#15#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cobweb/urls.py">
+      <file leaf-file-name="loader.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/gongfucms/loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="266">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/gongfucms/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5016">
+              <caret line="278" column="30" selection-start-line="278" selection-start-column="27" selection-end-line="278" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/cobweb/templates/cobweb/index.html">
+        <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.607142">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="228">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/signin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -289,6 +283,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="Python Script" />
       </list>
@@ -300,42 +295,70 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/routing.py" />
-        <option value="$PROJECT_DIR$/apps/channels_test/views.py" />
-        <option value="$PROJECT_DIR$/apps/channels_test/urls.py" />
-        <option value="$PROJECT_DIR$/gongfu/asgi.py" />
-        <option value="$PROJECT_DIR$/apps/channels_test/routing.py" />
-        <option value="$PROJECT_DIR$/cms/__init__.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/start_server.sh" />
-        <option value="$PROJECT_DIR$/fabfile.py" />
-        <option value="$PROJECT_DIR$/log/supervisord.log" />
-        <option value="$PROJECT_DIR$/log/daphne.err.log" />
-        <option value="$PROJECT_DIR$/log/channels.err.log" />
-        <option value="$PROJECT_DIR$/apps/channels_test/consumers.py" />
-        <option value="$PROJECT_DIR$/supervisord.conf" />
-        <option value="$PROJECT_DIR$/cms/views.py" />
         <option value="$PROJECT_DIR$/apps/channels_test/templates/channels_test/index.html" />
         <option value="$PROJECT_DIR$/apps/channels_tool/consumer.py" />
         <option value="$PROJECT_DIR$/apps/channels_tool/__init__.py" />
         <option value="$PROJECT_DIR$/apps/cobweb/routing.py" />
         <option value="$PROJECT_DIR$/apps/cobweb/templates/cobweb/index.html" />
-        <option value="$PROJECT_DIR$/gongfu/settings.py" />
-        <option value="$PROJECT_DIR$/gongfu/urls.py" />
         <option value="$PROJECT_DIR$/apps/cobweb/views.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/apps/cobweb/consumers.py" />
+        <option value="$PROJECT_DIR$/apps/cms/apps.py" />
+        <option value="$PROJECT_DIR$/apps/cms/static/cms/css/signin.css" />
+        <option value="$PROJECT_DIR$/apps/cms/templates/cms/signin.html" />
+        <option value="$PROJECT_DIR$/apps/cms/templates/cms/model/list.html" />
+        <option value="$PROJECT_DIR$/apps/cms/templates/cms/index.html" />
+        <option value="$PROJECT_DIR$/apps/cms/templatetags/get_dict.py" />
+        <option value="$PROJECT_DIR$/apps/smanager/views.py" />
+        <option value="$PROJECT_DIR$/apps/pcman/templates/pcman/reset-pc-password.html" />
+        <option value="$PROJECT_DIR$/apps/pcman/urls.py" />
+        <option value="$PROJECT_DIR$/apps/pcman/views.py" />
+        <option value="$PROJECT_DIR$/apps/cms/views.py" />
+        <option value="$PROJECT_DIR$/apps/cms/forms.py" />
+        <option value="$PROJECT_DIR$/apps/cms/accounts.py" />
+        <option value="$PROJECT_DIR$/apps/cms/GeneralViews.py" />
+        <option value="$PROJECT_DIR$/apps/cms/urls.py" />
+        <option value="$PROJECT_DIR$/apps/cms/sites.py" />
+        <option value="$PROJECT_DIR$/apps/cms/templates/cms/base.html" />
+        <option value="$PROJECT_DIR$/apps/cms/static/cms/css/cms.css" />
+        <option value="$PROJECT_DIR$/apps/cms/templates/cms/change_password.html" />
+        <option value="$PROJECT_DIR$/apps/cms/auth.py" />
+        <option value="$PROJECT_DIR$/apps/cms/models.py" />
+        <option value="$PROJECT_DIR$/gongfu/settings.py" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/apps.py" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/templates/cms/base.html" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/change_password.html" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/create.html" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/delete.html" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/sites.py" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/views.py" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/list.html" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/model404.html" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/setting.html" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/setting-model.html" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/update.html" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/index.html" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/signin.html" />
+        <option value="$PROJECT_DIR$/gongfu/urls.py" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/accounts.py" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/base.html" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/loader.py" />
+        <option value="$PROJECT_DIR$/apps/pcman/models.py" />
+        <option value="$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/history.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
+    <option name="x" value="-1" />
     <option name="y" value="26" />
-    <option name="width" value="1920" />
+    <option name="width" value="1922" />
     <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -363,7 +386,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -392,20 +415,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gongfu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gongfu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="gongfu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -424,7 +433,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cobweb" />
+              <option name="myItemId" value="pcman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,74 +448,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cobweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cobweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gongfu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gongfu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gongfu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gongfu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="channels_tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gongfu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gongfu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="channels_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -514,20 +461,21 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wchat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../huntington" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/apps/cobweb" />
-      <recent name="$PROJECT_DIR$/apps/channels_tool" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/static/js" />
-      <recent name="$PROJECT_DIR$/apps/channels_test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/apps" />
       <recent name="$PROJECT_DIR$/db" />
       <recent name="$PROJECT_DIR$/apps/channels_test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps" />
+      <recent name="$PROJECT_DIR$/apps/cms/templates/cms" />
+      <recent name="$PROJECT_DIR$/apps/smanager" />
+      <recent name="$PROJECT_DIR$/apps/cms/static/cms/js" />
+      <recent name="$PROJECT_DIR$/apps/cms/static/cms/css" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.gongfu">
@@ -623,7 +571,21 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="gongfu" />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -634,6 +596,7 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -775,7 +738,9 @@
       <item index="0" class="java.lang.String" itemvalue="Django server.gongfu" />
     </list>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -784,15 +749,31 @@
       <changelist id="5f104e66-1772-4473-a791-766ff6de9aad" name="Default" comment="" />
       <created>1469514085363</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1469514085363</updated>
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1471510446748</created>
       <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1471510446748</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1472028818208</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1472028818208</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <created>1472115510635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1472115510635</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -805,29 +786,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="26" width="1920" height="1028" extended-state="0" />
+    <frame x="-1" y="26" width="1922" height="1028" extended-state="7" />
     <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2766191" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24707136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15038419" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@gongfu" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2766191" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@gongfu" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -850,412 +831,402 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/channels_test/templates/channels_test/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/channels_test/consumers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/generic/websockets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/channel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/channels_test/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/socket.io-1.4.5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.761733">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/django/utils/six.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/routing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.121993">
-          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/generic/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16323024">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/worker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09793814">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/asgi_ipc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4364262">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/asgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/asgiref/base_layer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.16323024">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/channel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/message.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/channels_test/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/channels_test/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cms/static/cms/js/list.js">
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/static/gongfucms/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongfu/__init__.py">
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/jquery-1.11.3.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/channels_test/urls.py">
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1305842">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cms/__init__.py">
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/static/gongfucms/css/signin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        <state relative-caret-position="19">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gongfu/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.fabfileignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gongfu/asgi.py">
+    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/django/urls/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/start_server.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="92" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supervisord.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="90" selection-start-line="30" selection-start-column="90" selection-end-line="30" selection-end-column="90" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fabfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="153" column="15" selection-start-line="153" selection-start-column="15" selection-end-line="153" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cms/views.py">
+    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/django/views/generic/detail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="172" column="24" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="194">
+          <caret line="109" column="6" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/channels.out.log">
+    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/django/shortcuts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.45189">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="80">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/channels.err.log">
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/templatetags/get_dict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09793814">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="1375">
+          <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python2.7/threading.py">
+    <entry file="file://$PROJECT_DIR$/supervisord.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2120805">
-          <caret line="994" column="15" selection-start-line="994" selection-start-column="8" selection-end-line="994" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/channels_test/routing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#15#62#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/channels_test/templates/channels_test/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/channels_test/consumers.py">
+    <entry file="file://$PROJECT_DIR$/apps/pcman/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="95">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#16#52#0" expanded="true" />
+            <element signature="e#15#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/channels_test/apps.py">
+    <entry file="file://$PROJECT_DIR$/apps/pcman/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="152">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#15#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/django/apps/config.py">
+    <entry file="file://$PROJECT_DIR$/apps/pcman/templates/pcman/reset-pc-password.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="76">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="77" column="49" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/GeneralViews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/channels_tool/__init__.py">
+    <entry file="file://$PROJECT_DIR$/apps/cms/urls.py" />
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/static/gongfucms/css/cms.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="-35">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cobweb/routing.py">
+    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/django/contrib/auth/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="e#15#62#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="299" column="6" selection-start-line="299" selection-start-column="6" selection-end-line="299" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gongfu/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="143" column="26" selection-start-line="143" selection-start-column="26" selection-end-line="143" selection-end-column="26" />
+        <state relative-caret-position="342">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/static/gongfucms/js/model-custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/model404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/setting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="99" selection-start-line="7" selection-start-column="99" selection-end-line="7" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/setting-model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/change_password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gongfu/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/channels_test/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="418">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#639#680#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cobweb/templates/cobweb/index.html">
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.607142">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="5016">
+          <caret line="278" column="30" selection-start-line="278" selection-start-column="27" selection-end-line="278" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/channels_tool/consumer.py">
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/accounts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="475">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
           <folding>
-            <element signature="e#16#52#0" expanded="true" />
+            <element signature="e#15#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/gongfu/local/lib/python2.7/site-packages/channels/generic/websockets.py">
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="152">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cobweb/urls.py">
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="266">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cobweb/views.py">
+    <entry file="file://$PROJECT_DIR$/apps/pcman/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/cobweb/consumers.py">
+    <entry file="file://$PROJECT_DIR$/apps/gongfucms/templates/gongfucms/model/history.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58762884">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding>
-            <element signature="e#16#52#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="646">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

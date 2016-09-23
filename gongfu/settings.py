@@ -42,8 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'channels',
     'channels_test',
+    'pcman',
     'cobweb',
-    'cms',
+    'gongfucms',
 ]
 
 MIDDLEWARE_CLASSES = [

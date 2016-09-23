@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+*.pyc
+/.idea
+migrations
+*.pem
+*.dump
+*.docx
+test
+apps/gongfucms
